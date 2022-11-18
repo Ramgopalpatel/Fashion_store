@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* coupon css  */
+#coupon {
+  float: left;
+  width: 40%;
+  background-color: gray;
+  margin-left: 32%;
+  position: absolute;
+  z-index: 100;
+  margin-top: 100px;
+  visibility: hidden;
+  opacity: unset !important;
+}
+.couponimg {
+  width: 100%;
+}
+/* coupon css  */
+
+header {
+  margin: 0 !important;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+nav {
+  background-color: aliceblue;
+}
+
+/* light mode and dark mode  */
+
+body {
+  background-color: white;
+  color: black;
+}
+.mydark {
+  background-color: black;
+  color: white;
+}
+
+/* light mode and dark mode  */
+
+.videocontent video {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  
+}
+.pillcontent {
+  width: 80%;
+}
+main {
+  padding-top: 60px;
+  margin-top: 0;
+}
+.carousel_width {
+  width: 60%;
+}
+.carouselimg {
+  position: relative;
+}
+.margin {
+  height: 60vh;
+  margin-left: 30%;
+}
+.accord {
+  position: relative;
+  z-index: 1;
+}
+
+/* main content */
+
+/* main content */
+
+.foot {
+  position: relative;
+  z-index: 1;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  background-color: aliceblue;
+}
+.liststyle {
+  list-style: none;
+}
+.liststyle > a:hover {
+  text-decoration: underline;
+}
