@@ -2,6 +2,23 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Bungee Spice", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Niconne", cursive;
+}
+/* preloader of the web page  */
+#preloader {
+  background: black url("./Images/preloader/preloader.gif") no-repeat center
+    center;
+  background-size: 20%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+/* preloader of the web page  */
 
 /* coupon css  */
 #coupon {
@@ -40,20 +57,60 @@ body {
   background-color: black;
   color: white;
 }
+#icon {
+  width: 26px;
+  cursor: pointer;
+}
 
 /* light mode and dark mode  */
-
-.videocontent video {
+.videocontent {
+  background: url("./Images/video/3zF.gif") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
   padding: 0;
   margin: 0;
+}
+.text-location {
+  text-align: center;
+  padding-top: 15%;
+  font-size: 400%;
+  font-family: "Bungee Spice", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Niconne", cursive;
+}
+.location {
+  background-color: aliceblue;
+  margin: auto;
+  width: 60%;
+  padding-bottom: 8px;
   height: auto;
+  border: 2px solid white;
+  border-radius: 5px;
   
+}
+#loc-icon{
+  position: relative;
+  top: 5px;
+  left: 5px;
+  
+  color: orange;
+  padding-left: 8px;
+  font-size: larger;
+}
+.pholder{
+  color: black;
+  position: relative;
+  top: 5px;
+  left: 15px;
+  
+
 }
 .pillcontent {
   width: 80%;
 }
 main {
-  padding-top: 60px;
+  padding-top: 56px;
   margin-top: 0;
 }
 .carousel_width {

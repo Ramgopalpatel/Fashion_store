@@ -12,392 +12,411 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
 
-  <script src="./fashion.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lobster&family=Niconne&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- coupon code  -->
+  <!-- preloader of the web page -->
+  <div id="preloader">
 
-  <div id="coupon">
-    <span class="ms-3" onClick="closeCoupon()"><span class="text-white fs-1">&times;</span></span>
-    <img class="couponimg img1" id="image1" src="./Images/coupon/coupon1.jpg" alt=" loading" />
   </div>
-
-  <!-- coupon code  -->
-
-  <div id="main">
-    <header>
-      <nav class="navbar navbar-expand-lg navbgcolor">
-        <div class="container-fluid">
-          <img src="./Images/logo1.png" alt="Fashion store" class="rounded-pill ps-" width="50px" />
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="ps-5 nav-item">
-                <a class="nav-link text-dark fw-5" href="#home">Home</a>
-              </li>
-              <li class="nav-item d-inline">
-                <a class="nav-link ps-3 text-dark" href="#">Women</a>
-              </li>
-              <li class="nav-item d-inline">
-                <a class="nav-link ps-3 text-dark" href="#">Men</a>
-              </li>
-              <li class="nav-item d-inline">
-                <a class="nav-link ps-3 text-dark" href="#">Girls</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ps-3 text-dark" href="#">Boys</a>
-              </li>
-              <li class="nav-item d-inline">
-                <a class="nav-link ps-3 text-dark" href="#">Kids</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button class="btn btn-success" type="submit">Search</button>
-            </form>
-      <!-- light mode and dark mode -->
-
-            <div class="ms-3 d-inline">
-              <button class="btn btn-secondary rounded" onClick="changeMode()">
-                <i class="fa-solid fa-moon text-white"></i>
-              </button>
-            </div>
-      <!-- light mode and dark mode -->
+  <!-- preloader of the web page -->
 
 
-            <span class="dropdown">
-              <a class="px-4 text-decoration-none">
-                <i class="fa-solid fs-3 fa-user-plus"></i>
-                <span class="text-dark">Account</span>
-              </a>
-            </span>
+  <div class="#">
+    <!-- coupon code  -->
 
-            <a href="#" class="pe-4 text-decoration-none"><i class="fs-3 fa-solid fa-heart text-danger"></i>
-              <span class="text-dark">Wishlist</span>
-            </a>
-            <a href="#" class="pe-5 text-decoration-none"><i class="fs-5 fa-sharp fa-solid fs-3 fa-cart-plus"></i>
-              <span class="text-dark">Bag</span>
-            </a>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-
-
-
-      <div class="videocontent ">
-        <video class=" container-fluid" src="./Images/video/crovideo.webm" autoplay muted></video>
-      </div>
-
-      <h1 class="text-center my-5">Welcome in India's Fashion store</h1>
-      <div class="entertainment container-fluid-lg container-fluid-sm container-fluid-xs container-fluid-md px-5">
-        <div class="enjoyontv row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
-          <div class="col my-5  text-center">
-
-            <div class="imgsection2">
-              <img class="rounded-pill pillcontent" src="./Images/mainimg/sgirl.jpg" alt="">
-            </div>
-
-          </div>
-          <div class="col text-center my-5 enjoyvideo">
-            <video class="video rounded-pill pillcontent" src="./Images/video/sgirls.webm" autoplay muted></video>
-          </div>
-        </div>
-
-
-        <div class="enjoyontv row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
-          <div class="col text-center my-5 ">
-            <video class="rounded-pill pillcontent" src="./Images/video/kids2.webm" autoplay muted>
-          </div>
-          <div class="col my-5 text-center ">
-            <img class="rounded-pill pillcontent" src="./Images/mainimg/cutekids.jpg" alt="">
-          </div>
-        </div>
-
-        <div class="enjoyontv row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
-          <div class="col my-5 text-center ">
-            <img class="rounded-pill pillcontent" src="./Images/mainimg/cutboys.jpg" alt="">
-          </div>
-          <div class="col text-center my-5 enjoyvideo">
-            <video class="rounded-pill pillcontent"
-              src="./Images/video/Spend The Week With Me_ Hot Girl Edition (fashion week, valentines _ more...).webm"
-              autoplay muted></video>
-          </div>
-        </div>
-
-        <div class="enjoyontv row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
-          <div class="col text-center my-5 downloadsection">
-            <video src="./Images/video/boyfashion.webm" autoplay muted class="rounded-pill pillcontent">
-          </div>
-          <div class="col my-5 text-center 
-        ">
-            <img src="./Images/mainimg/sgirl1.jpg" alt="" class="rounded-pill pillcontent ">
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-      <div class="container accord">
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item my-4 border rounded">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                aria-expanded="true" aria-controls="collapseOne">
-                What is Fashion store?
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>Fashion store</strong> Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Tempore quis soluta ipsum
-                quaerat, vero nulla placeat facilis aspernatur natus
-                voluptates explicabo dolore nesciunt porro laborum aperiam
-                praesentium suscipit officiis sapiente. Dolore dignissimos
-                incidunt excepturi, quaerat quos maiores dolor voluptatibus
-                pariatur fugit sapiente delectus officia ducimus corporis
-                quasi sit reiciendis possimus qui! Ad voluptas error placeat,
-                aliquam quos iusto molestias veritatis.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item my-4 border rounded">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Where can I buy?
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dolorum pariatur eaque corporis laboriosam ipsum aperiam
-                adipisci autem aut similique explicabo quis deserunt accusamus
-                cum maiores debitis eveniet quia delectus velit, quasi nihil
-                minus unde fugiat. Et dolorum, numquam quaerat explicabo
-                tempore qui mollitia cupiditate voluptas vero reprehenderit
-                enim iste illum beatae aliquam obcaecati quis vel neque,
-                maiores consequatur provident nesciunt.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item my-4 border rounded">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                How much does Fashion store Cost?
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                eum aspernatur excepturi reprehenderit! Recusandae et
-                repellendus labore iusto doloribus ipsam corporis illum, ex
-                laudantium explicabo! Quis similique beatae atque debitis ad,
-                distinctio explicabo consequatur voluptates blanditiis vel
-                dicta expedita sequi nobis iusto tempore accusantium aliquam
-                delectus? Accusamus fugit debitis quasi nulla cupiditate ad
-                molestiae exercitationem repellat quis iste veritatis, id,
-                blanditiis placeat enim deleniti quidem aliquam magni ducimus
-                ut maiores.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item my-4 border rounded">
-            <h2 class="accordion-header" id="headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                What can I buy on Fashion Store?
-              </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                eum aspernatur excepturi reprehenderit! Recusandae et
-                repellendus labore iusto doloribus ipsam corporis illum, ex
-                laudantium explicabo! Quis similique beatae atque debitis ad,
-                distinctio explicabo consequatur voluptates blanditiis vel
-                dicta expedita sequi nobis iusto tempore accusantium aliquam
-                delectus? Accusamus fugit debitis quasi nulla cupiditate ad
-                molestiae exercitationem repellat quis iste veritatis, id,
-                blanditiis placeat enim deleniti quidem aliquam magni ducimus
-                ut maiores.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item my-4 border rounded">
-            <h2 class="accordion-header" id="headingFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                How can I cancel?
-              </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                eum aspernatur excepturi reprehenderit! Recusandae et
-                repellendus labore iusto doloribus ipsam corporis illum, ex
-                laudantium explicabo! Quis similique beatae atque debitis ad,
-                distinctio explicabo consequatur voluptates blanditiis vel
-                dicta expedita sequi nobis iusto tempore accusantium aliquam
-                delectus? Accusamus fugit debitis quasi nulla cupiditate ad
-                molestiae exercitationem repellat quis iste veritatis, id,
-                blanditiis placeat enim deleniti quidem aliquam magni ducimus
-                ut maiores.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item my-4 border rounded">
-            <h2 class="accordion-header" id="headingSix">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                How can I return the product?
-              </button>
-            </h2>
-            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                eum aspernatur excepturi reprehenderit! Recusandae et
-                repellendus labore iusto doloribus ipsam corporis illum, ex
-                laudantium explicabo! Quis similique beatae atque debitis ad,
-                distinctio explicabo consequatur voluptates blanditiis vel
-                dicta expedita sequi nobis iusto tempore accusantium aliquam
-                delectus? Accusamus fugit debitis quasi nulla cupiditate ad
-                molestiae exercitationem repellat quis iste veritatis, id,
-                blanditiis placeat enim deleniti quidem aliquam magni ducimus
-                ut maiores.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <div class="foot">
-      <footer class="container-lg container-sm container-md">
-        <h4 class="py-5 text-dark">Questions? Call xxx-xxx-xxx-xxxx</h4>
-        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
-          <div class="col">
-            <h6 class="text-dark">Online Shipping</h6>
-            <ul class="list-style-none">
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Men</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Women</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Kids</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Boys</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Girls</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col">
-            <h6 class="text-dark">Useful Links</h6>
-            <ul>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Blog</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Careers</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Site Map</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Legal Notice</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Media Centre</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col">
-            <h6 class="text-dark">Customer policies</h6>
-            <ul class="
-            ">
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Contact us</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">FAQ</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">T&C</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Terms of use</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Track order</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Shipping</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Cancellation</a>
-              </li>
-              <li class="liststyle">
-                <a href="#" class="text-decoration-none text-secondary">Returns</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col">
-            <h6 class="text-dark">Keep in touch</h6>
-
-            <ul>
-              <li class="liststyle d-inline fs-2">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              </li>
-              <li class="liststyle d-inline fs-2">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              </li>
-              <li class="liststyle d-inline fs-2">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              </li>
-              <li class="liststyle d-inline fs-2">
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <button type="button" class="rounded border border-secondary text-white bg-dark me-2 py-1 px-2 mt-4">
-          <i class="fa-sharp fa-solid fa-globe"></i>
-          English
-          <i class="fa-solid fa-caret-down"></i>
-        </button>
-        <h6 class="py-4 text-dark">Fashion store India</h6>
-      </footer>
+    <div id="coupon">
+      <span class="ms-3" onClick="closeCoupon()"><span class="text-white fs-1">&times;</span></span>
+      <img class="couponimg img1" id="image1" src="./Images/coupon/coupon1.jpg" alt=" loading" />
     </div>
+
+    <!-- coupon code  -->
+    <div id="main">
+      <header>
+        <nav class="navbar navbar-expand-lg navbgcolor">
+          <div class="container-fluid">
+            <img src="./Images/logo1.png" alt="Fashion store" class="rounded-pill ps-" width="50px" />
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="ps-5 nav-item">
+                  <a class="nav-link text-dark fw-5" href="#home">Home</a>
+                </li>
+                <li class="nav-item d-inline">
+                  <a class="nav-link ps-3 text-dark" href="#">Women</a>
+                </li>
+                <li class="nav-item d-inline">
+                  <a class="nav-link ps-3 text-dark" href="#">Men</a>
+                </li>
+                <li class="nav-item d-inline">
+                  <a class="nav-link ps-3 text-dark" href="#">Girls</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ps-3 text-dark" href="#">Boys</a>
+                </li>
+                <li class="nav-item d-inline">
+                  <a class="nav-link ps-3 text-dark" href="#">Kids</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+              <!-- light mode and dark mode -->
+
+              <div id="secondary" class="ms-3 d-inline ">
+                <button class="rounded btn btn-secondary"><img id="icon" src="./Images/darkimg/moon.png"></img></button>
+              </div>
+
+              <!-- light mode and dark mode -->
+
+
+              <span class="dropdown">
+                <a class="px-4 text-decoration-none">
+                  <i class="fa-solid fs-3 fa-user-plus"></i>
+                  <span class="text-dark">Account</span>
+                </a>
+              </span>
+
+              <a href="#" class="pe-4 text-decoration-none"><i class="fs-3 fa-solid fa-heart text-danger"></i>
+                <span class="text-dark">Wishlist</span>
+              </a>
+              <a href="#" class="pe-5 text-decoration-none"><i class="fs-5 fa-sharp fa-solid fs-3 fa-cart-plus"></i>
+                <span class="text-dark">Bag</span>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+
+
+
+        <div class="videocontent " id="home">
+          <!-- <video class=" container-fluid" src="./Images/video/crovideo.webm" autoplay muted loop></video> -->
+          <div >
+            <h1 class="text-location"> Fashion store</h1>
+            <div class="location" onClick="geolocation()">
+              <span id="out" ><i id="loc-icon" class="fa-solid fa-location-dot"></i> </span>
+              <span class="pholder" id="weather">Detect Your current location</span>
+            </div>
+          </div>
+
+        </div>
+
+        <h1 class="text-center my-5">Welcome in India's Fashion store</h1>
+        <div class="entertainment container-fluid-lg container-fluid-sm container-fluid-xs container-fluid-md px-5">
+          <div class="enjoyontv row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
+            <div class="col my-5  text-center">
+
+              <div class="imgsection2">
+                <img class="rounded-pill pillcontent" src="./Images/mainimg/sgirl.jpg" alt="">
+              </div>
+
+            </div>
+            <div class="col text-center my-5 enjoyvideo">
+              <video class="video rounded-pill pillcontent" src="./Images/video/sgirls.webm" autoplay muted></video>
+            </div>
+          </div>
+
+
+          <div class="enjoyontv row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
+            <div class="col text-center my-5 ">
+              <video class="rounded-pill pillcontent" src="./Images/video/kids2.webm" autoplay muted>
+            </div>
+            <div class="col my-5 text-center ">
+              <img class="rounded-pill pillcontent" src="./Images/mainimg/cutekids.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="enjoyontv row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
+            <div class="col my-5 text-center ">
+              <img class="rounded-pill pillcontent" src="./Images/mainimg/cutboys.jpg" alt="">
+            </div>
+            <div class="col text-center my-5 enjoyvideo">
+              <video class="rounded-pill pillcontent"
+                src="./Images/video/Spend The Week With Me_ Hot Girl Edition (fashion week, valentines _ more...).webm"
+                autoplay muted loop></video>
+            </div>
+          </div>
+
+          <div class="enjoyontv row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
+            <div class="col text-center my-5 downloadsection">
+              <video src="./Images/video/boyfashion.webm" autoplay muted loop class="rounded-pill pillcontent">
+            </div>
+            <div class="col my-5 text-center 
+        ">
+              <img src="./Images/mainimg/sgirl1.jpg" alt="" class="rounded-pill pillcontent ">
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="container accord">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item my-4 border rounded">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  What is Fashion store?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Fashion store</strong> Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Tempore quis soluta ipsum
+                  quaerat, vero nulla placeat facilis aspernatur natus
+                  voluptates explicabo dolore nesciunt porro laborum aperiam
+                  praesentium suscipit officiis sapiente. Dolore dignissimos
+                  incidunt excepturi, quaerat quos maiores dolor voluptatibus
+                  pariatur fugit sapiente delectus officia ducimus corporis
+                  quasi sit reiciendis possimus qui! Ad voluptas error placeat,
+                  aliquam quos iusto molestias veritatis.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item my-4 border rounded">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Where can I buy?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dolorum pariatur eaque corporis laboriosam ipsum aperiam
+                  adipisci autem aut similique explicabo quis deserunt accusamus
+                  cum maiores debitis eveniet quia delectus velit, quasi nihil
+                  minus unde fugiat. Et dolorum, numquam quaerat explicabo
+                  tempore qui mollitia cupiditate voluptas vero reprehenderit
+                  enim iste illum beatae aliquam obcaecati quis vel neque,
+                  maiores consequatur provident nesciunt.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item my-4 border rounded">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  How much does Fashion store Cost?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  eum aspernatur excepturi reprehenderit! Recusandae et
+                  repellendus labore iusto doloribus ipsam corporis illum, ex
+                  laudantium explicabo! Quis similique beatae atque debitis ad,
+                  distinctio explicabo consequatur voluptates blanditiis vel
+                  dicta expedita sequi nobis iusto tempore accusantium aliquam
+                  delectus? Accusamus fugit debitis quasi nulla cupiditate ad
+                  molestiae exercitationem repellat quis iste veritatis, id,
+                  blanditiis placeat enim deleniti quidem aliquam magni ducimus
+                  ut maiores.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item my-4 border rounded">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  What can I buy on Fashion Store?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  eum aspernatur excepturi reprehenderit! Recusandae et
+                  repellendus labore iusto doloribus ipsam corporis illum, ex
+                  laudantium explicabo! Quis similique beatae atque debitis ad,
+                  distinctio explicabo consequatur voluptates blanditiis vel
+                  dicta expedita sequi nobis iusto tempore accusantium aliquam
+                  delectus? Accusamus fugit debitis quasi nulla cupiditate ad
+                  molestiae exercitationem repellat quis iste veritatis, id,
+                  blanditiis placeat enim deleniti quidem aliquam magni ducimus
+                  ut maiores.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item my-4 border rounded">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  How can I cancel?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  eum aspernatur excepturi reprehenderit! Recusandae et
+                  repellendus labore iusto doloribus ipsam corporis illum, ex
+                  laudantium explicabo! Quis similique beatae atque debitis ad,
+                  distinctio explicabo consequatur voluptates blanditiis vel
+                  dicta expedita sequi nobis iusto tempore accusantium aliquam
+                  delectus? Accusamus fugit debitis quasi nulla cupiditate ad
+                  molestiae exercitationem repellat quis iste veritatis, id,
+                  blanditiis placeat enim deleniti quidem aliquam magni ducimus
+                  ut maiores.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item my-4 border rounded">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  How can I return the product?
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  eum aspernatur excepturi reprehenderit! Recusandae et
+                  repellendus labore iusto doloribus ipsam corporis illum, ex
+                  laudantium explicabo! Quis similique beatae atque debitis ad,
+                  distinctio explicabo consequatur voluptates blanditiis vel
+                  dicta expedita sequi nobis iusto tempore accusantium aliquam
+                  delectus? Accusamus fugit debitis quasi nulla cupiditate ad
+                  molestiae exercitationem repellat quis iste veritatis, id,
+                  blanditiis placeat enim deleniti quidem aliquam magni ducimus
+                  ut maiores.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div class="foot">
+        <footer class="container-lg container-sm container-md">
+          <h4 class="py-5 text-dark">Questions? Call xxx-xxx-xxx-xxxx</h4>
+          <div class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
+            <div class="col">
+              <h6 class="text-dark">Online Shipping</h6>
+              <ul class="list-style-none">
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Men</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Women</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Kids</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Boys</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Girls</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <h6 class="text-dark">Useful Links</h6>
+              <ul>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Blog</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Careers</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Site Map</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Legal Notice</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Media Centre</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <h6 class="text-dark">Customer policies</h6>
+              <ul class="
+            ">
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Contact us</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">FAQ</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">T&C</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Terms of use</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Track order</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Shipping</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Cancellation</a>
+                </li>
+                <li class="liststyle">
+                  <a href="#" class="text-decoration-none text-secondary">Returns</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <h6 class="text-dark">Keep in touch</h6>
+
+              <ul>
+                <li class="liststyle d-inline fs-2">
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="liststyle d-inline fs-2">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li class="liststyle d-inline fs-2">
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li class="liststyle d-inline fs-2">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" class="rounded border border-secondary text-white bg-dark me-2 py-1 px-2 mt-4">
+            <i class="fa-sharp fa-solid fa-globe"></i>
+            English
+            <i class="fa-solid fa-caret-down"></i>
+          </button>
+          <h6 class="py-4 text-dark">Fashion store India</h6>
+        </footer>
+      </div>
+
+    </div>
+    
+
   </div>
 
-  <script>
-    window.onload = loadCoupon();
-  </script>
 
+
+  <script src="./fashion.js">
+
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
