@@ -9,8 +9,8 @@ body {
 }
 /* preloader of the web page  */
 #preloader {
-  background: black url("./Images/preloader/preloader.gif") no-repeat center
-    center;
+  background: black url("./Images/preloader/optical-illusions-abstract.gif")
+    no-repeat center center;
   background-size: 20%;
   height: 100vh;
   width: 100%;
@@ -88,24 +88,21 @@ body {
   height: auto;
   border: 2px solid white;
   border-radius: 5px;
-  
 }
-#loc-icon{
+#loc-icon {
   position: relative;
   top: 5px;
   left: 5px;
-  
+
   color: orange;
   padding-left: 8px;
   font-size: larger;
 }
-.pholder{
+.pholder {
   color: black;
   position: relative;
   top: 5px;
   left: 15px;
-  
-
 }
 .pillcontent {
   width: 80%;
