@@ -1,10 +1,9 @@
 let dark = document.getElementById("icon");
 dark.onclick = function () {
   document.body.classList.toggle("mydark");
-  toggleclass.classList.toggle("btn-secondary");
-
   if (document.body.classList.contains("mydark")) {
     icon.src = "./Images/darkimg/sun.png";
+    secondary.classList.toggle("btn-secondary");
   } else {
     icon.src = "./Images/darkimg/moon.png";
   }
